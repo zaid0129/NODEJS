@@ -39,7 +39,7 @@ const dataSave=async(req,res)=>{
         fees:fees
     })
     console.log(req.body)
-res.send("DATA SAVED CHECK MONGODB")
+res.render("home")
 
 }
 
