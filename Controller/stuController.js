@@ -6,7 +6,7 @@ res.render("home")
 
 let aboutPage= (req, res)=>{
 res.render("about")
-}
+} 
 
 let servicePage= (req, res)=>{
 res.render("services")
