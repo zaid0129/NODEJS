@@ -1,6 +1,6 @@
 let mongoose = require("mongoose");
 let stuSchema = new mongoose.Schema ({
-    rno:Number,
+    rollno:Number,
     name:String,
     city:String,
     fees:Number

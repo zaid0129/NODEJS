@@ -33,7 +33,7 @@ res.render("contact")
 const dataSave=async(req,res)=>{
     const {rno,name,city,fees}=req.body
    await stuModel.create({
-        rno:rno,
+        rollno:rno,
         name:name,
         city:city,
         fees:fees
