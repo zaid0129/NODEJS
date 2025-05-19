@@ -4,7 +4,9 @@ let homePage= (req, res)=>{
 res.render("home")
 }
 
-let aboutPage= (req, res)=>{
+let aboutPage= async(req, res)=>{
+    let Data = await stuModel.find();
+    console.log(Data)
 res.render("about")
 } 
 
